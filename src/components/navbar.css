@@ -1,6 +1,24 @@
 
-}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    padding: 6px;
+    background-color: #333333;
   
-    
+}
+a{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 30px;
+   color: black;
+   letter-spacing: 3px;
+   font-weight: bolder;
+} 
+a:hover {
+   color: blueviolet;
+   
+}   
     
    export default App;

@@ -1,15 +1,17 @@
 import './App.css';
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import Footer from './components/footer.jsx';
+import Catalog from './pages/catalog';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <h1>Welcome to React</h1>
-      <Footer/>
-      
-    </div>
+    <>
+      <Navbar /> 
+      <catalog/>
+      <About/>
+      <Footer/>  
+    </>
   );
 }
   

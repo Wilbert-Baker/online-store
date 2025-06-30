@@ -1,0 +1,24 @@
+.product{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin :10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: blanchedalmond;
+    padding: 6px 2px;
+}
+    .product h3 {
+        color: orange;
+
+    }
+    .prices-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prices {
+        margin-bottom: 6px;
+
+    }
+

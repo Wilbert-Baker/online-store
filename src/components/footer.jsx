@@ -1,8 +1,12 @@
-import "./Navbar.css";
+import "./footer.css";
 
-function footer() {
+
+
+function Footer() {
     return (
-        <p>Hello This is My Project</p>
+        <div className="footer">
+            <h5>produced by:Wilbert Baker</h5>
+        </div>
     );
 }
-export default footer;
+export default Footer;
