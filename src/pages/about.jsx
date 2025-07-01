@@ -1,14 +1,13 @@
 import "./About.css";
+import {useState} from "react";
 
 function About() {
 
-    const[visibleEmail, setVisibleEmail] = usestate(false);
+    const[visibleEmail, setVisibleEmail] = useState(false);
 
     function showEmail() {
         setVisibleEmail(true);
-
     }
-
     return(
         <div className="about">
         <h3>About Us</h3>
@@ -18,7 +17,7 @@ function About() {
             <br/>
             {
                 !visibleEmail
-                ? <button  onClick={ShowEmail} className="btn btn-outline-primary">Show Email</button>
+                ? <button  onClick={showEmail} className="btn btn-outline-primary">Show Email</button>
                 :null
             }
         </div>
