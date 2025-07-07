@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/footer.jsx';
 import Catalog from './pages/catalog';
 import About from './pages/about.jsx';
+import Quantitypicker from './components/Quantitypicker.jsx';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Navbar /> 
       <Catalog/>
       <About/>
-      <Footer/>  
+      <Footer/> 
+      
     </>
   );
 }

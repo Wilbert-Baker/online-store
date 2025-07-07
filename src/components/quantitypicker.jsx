@@ -1,4 +1,4 @@
-import"./Quantity Picker.css";
+import"./Quantitypicker.css";
 import { useState} from "react";
 
 
@@ -19,7 +19,7 @@ function QuantityPicker() {
         <div className="qt-picker">
          <button onClick = {decrease} className="btn btn-sm btn-outline-dark" disabled={quantity===1}>-</button>
          
-            <label>0</label>
+            <label>{quantity}</label>
            <button onClick = {increase} className="btn btn-sm btn-outline-dark">+</button>  
          </div>
     );
