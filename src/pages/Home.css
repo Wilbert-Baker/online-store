@@ -1,0 +1,25 @@
+
+.home h1 {
+    color:aqua;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.home .img-1 {
+    max-width: 100%;
+    margin: 100px;
+    height: 80%;
+    padding: 4px;
+}
+
+.home h2 {
+    color: aqua;
+    text-align: left;
+}
+
+.home h5 {
+    color: #95c12e;
+    text-align: left;
+}
+

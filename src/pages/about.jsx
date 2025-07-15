@@ -9,7 +9,7 @@ function About() {
         setVisibleEmail(true);
     }
     return(
-        <div className="about">
+        <div className="about page">
         <h3>About Us</h3>
         <div className="Box">
             <h2>Wilbert Baker</h2>

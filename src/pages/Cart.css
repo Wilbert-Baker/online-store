@@ -1,0 +1,13 @@
+
+
+.cart .parent {
+    display: flex;
+}
+
+.cart .parent .prods {
+    flex: 4;
+}
+
+.cart .parent .side {
+    flex: 2;
+}

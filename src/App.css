@@ -1,10 +1,10 @@
 #root {
-  margin:  auto;
+  margin:  100%;
   text-align: center;
 }
 
-.main-content {
-  min-height: calc(100vh-150px);
+.page {
+  min-height: calc(100vh-136px);
 }
 
   

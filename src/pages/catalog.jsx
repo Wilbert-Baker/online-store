@@ -1,6 +1,6 @@
 import "./catalog.css";
 import Product from "../components/Product";
-import DataService from "../Service/DataSevices.js";
+import DataService from "../Service/DataSevice.js";
 import { useState, useEffect } from "react";
 
 function Catalog() {
@@ -10,17 +10,19 @@ function Catalog() {
     loadCatalog();
   }, []);
 
-  function loadCatalog() {
-    let service = DataService();
-    let prods = service.getProducts();
+  async function loadCatalog() {
+    let service = new DataService();
+    let prods = await service.getProducts();
     setProducts(prods);
   }
 
-  console.log(products);
+  useEffect(() => {
+    console.log(products);
+  }, [products]);
 
   return (
-    <div className="main-content">
-      <h3>here are the {products.length} new products for you!</h3>
+    <div className='main-content page'>
+      <h3>Here are the {products.length} new products for you!</h3>
       <br />
       <div className="catalog-item">
         {products.map((item) => (
