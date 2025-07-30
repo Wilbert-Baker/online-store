@@ -45,7 +45,7 @@ function Navbar() {
       
             <div className='d-flex gap-3'>
               <Link className="btn btn-outline-success" to="/cart">Cart</Link>
-              <span class="badge text-bg-warning">{cart.length} View Cart</span>
+              <span className="badge text-bg-warning">{cart.length} View Cart</span>
             </div>
           </form>
         </div>

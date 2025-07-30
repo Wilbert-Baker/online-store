@@ -28,3 +28,14 @@
         object-fit: cover;
     }
 
+
+    .add-button {
+        margin-button: 6px;
+    }
+
+    .product .controls {
+        display: flex;
+        justify-content: space-around;
+
+    }
+

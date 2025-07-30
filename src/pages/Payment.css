@@ -1,4 +1,45 @@
 
 .paymemt {
-    background-color: beige;
+    background-color: #803112;
 }
+
+.container {
+  display: flex; /* or inline-flex */
+
+
+}
+
+.tab {
+  background-origin: padding-box;
+  background-color: aqua;
+  border: 4px;
+  width: 100%;
+  height: 400px ;
+}
+
+.item {
+  align-self: center;
+  height: 300px ;
+  flex-shrink: var(#b12929);
+}
+
+.tabcontent{
+  border: #b12929;
+  padding: 30px 40px;
+  width: 80%;
+  background-color: aqua;
+}
+.p{
+  margin: 60px;
+
+}
+
+input{
+  background-color: aqua;
+  color: black;
+  padding: 6px 2px;
+  margin: 10px;
+  display: block;
+
+}
+    

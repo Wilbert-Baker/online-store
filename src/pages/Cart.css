@@ -2,6 +2,7 @@
 
 .cart .parent {
     display: flex;
+    background-color: blue;
 }
 
 .cart .parent .prods {
@@ -10,4 +11,11 @@
 
 .cart .parent .side {
     flex: 2;
+}
+
+.container {
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+
 }
